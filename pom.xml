@@ -18,6 +18,7 @@
         <joinfaces.version>2.4.1</joinfaces.version>
         <version.h2>1.4.194</version.h2>
         <version.selenium>3.9.0</version.selenium>
+        <version.jacoco>0.7.9</version.jacoco>
     </properties>
 
     <!-- Maven dependencies -->
