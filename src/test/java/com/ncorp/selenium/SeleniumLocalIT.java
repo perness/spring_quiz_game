@@ -120,6 +120,7 @@ public class SeleniumLocalIT {
             long quizID = matchPO.getQuizId();
 
             int quizCounter = matchPO.getQuestionCounter();
+            System.out.println("counter: " + i);
             assertEquals(i+1, quizCounter);
 
             int correctAnswerIndex = quizService.getQuiz(quizID).getCorrectAnswer();

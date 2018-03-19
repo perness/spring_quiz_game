@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DefaultDataInitializerService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">spring_project</a> &gt; <a href="index.source.html" class="el_package">com.ncorp.service</a> &gt; <span class="el_source">DefaultDataInitializerService.java</span></div><h1>DefaultDataInitializerService.java</h1><pre class="source lang-java linenums">package com.ncorp.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import javax.annotation.PostConstruct;
+
+@Service
+<span class="fc" id="L8">public class DefaultDataInitializerService {</span>
+
+    @Autowired
+    private QuizService quizService;
+
+    @Autowired
+    private CategoryService categoryService;
+
+    @PostConstruct
+    public void init(){
+<span class="fc" id="L18">        Long firstCategoryId = categoryService.createCategory(&quot;first category&quot;),</span>
+<span class="fc" id="L19">                secondCategoryId = categoryService.createCategory(&quot;second category&quot;);</span>
+
+<span class="fc" id="L21">        Long firstSubCategoryId = categoryService.createSubCategory(firstCategoryId, &quot;first sub category&quot;),</span>
+<span class="fc" id="L22">                secondSubCategoryId = categoryService.createSubCategory(firstCategoryId, &quot;second sub category&quot;),</span>
+<span class="fc" id="L23">                thirdSubCategoryId = categoryService.createSubCategory(secondCategoryId, &quot;third sub category&quot;),</span>
+<span class="fc" id="L24">                fourthSubCategoryId = categoryService.createSubCategory(secondCategoryId, &quot;fourth sub category&quot;),</span>
+<span class="fc" id="L25">                fifthSubCategoryId = categoryService.createSubCategory(secondCategoryId, &quot;fifth sub category&quot;);</span>
+
+<span class="fc" id="L27">        Long firstQuiz = quizService.createQuiz(firstSubCategoryId,</span>
+                &quot;What is 1 + (-1)?&quot;,
+                &quot;0&quot;,
+                &quot;1&quot;,
+                &quot;2&quot;,
+                &quot;3&quot;,
+                0),
+
+<span class="fc" id="L35">                secondQuiz = quizService.createQuiz(firstSubCategoryId,</span>
+                        &quot;What is the capital of Norway?&quot;,
+                        &quot;N&quot;,
+                        &quot;Oslo&quot;,
+                        &quot;Europe&quot;,
+                        &quot;Scandinavia&quot;,
+                        1),
+
+<span class="fc" id="L43">                thirdQuiz = quizService.createQuiz(secondSubCategoryId,</span>
+                        &quot;What is the capital of Italy?&quot;,
+                        &quot;Florence&quot;,
+                        &quot;Milan&quot;,
+                        &quot;Rome&quot;,
+                        &quot;Turin&quot;,
+                        2),
+
+<span class="fc" id="L51">                fourthQuiz = quizService.createQuiz(secondSubCategoryId,</span>
+                        &quot;When ended the second world war?&quot;,
+                        &quot;1925&quot;,
+                        &quot;1935&quot;,
+                        &quot;1945&quot;,
+                        &quot;1955&quot;,
+                        2),
+
+<span class="fc" id="L59">                fifthQuiz = quizService.createQuiz(secondSubCategoryId,</span>
+                        &quot;Name the seventh planet from the sun?&quot;,
+                        &quot;Uranus&quot;,
+                        &quot;Earth&quot;,
+                        &quot;Jupiter&quot;,
+                        &quot;Saturn&quot;,
+                        0),
+
+<span class="fc" id="L67">                sixthQuiz = quizService.createQuiz(thirdSubCategoryId,</span>
+                        &quot;Name the world's biggest island?&quot;,
+                        &quot;Island&quot;,
+                        &quot;Greenland&quot;,
+                        &quot;Australia&quot;,
+                        &quot;North pole&quot;,
+                        1),
+
+<span class="fc" id="L75">                seventhQuiz = quizService.createQuiz(fourthSubCategoryId,</span>
+                        &quot;What is the world's longest river?&quot;,
+                        &quot;Nile&quot;,
+                        &quot;Danube&quot;,
+                        &quot;Ganges&quot;,
+                        &quot;Amazon&quot;,
+                        3),
+
+<span class="fc" id="L83">                eigthQuiz = quizService.createQuiz(fourthSubCategoryId,</span>
+                        &quot;When did the Cold War end?&quot;,
+                        &quot;1789&quot;,
+                        &quot;1889&quot;,
+                        &quot;1989&quot;,
+                        &quot;2009&quot;,
+                        2),
+
+<span class="fc" id="L91">                nithQuiz = quizService.createQuiz(fifthSubCategoryId,</span>
+                        &quot;What colour is Absynthe?&quot;,
+                        &quot;Yellow&quot;,
+                        &quot;Red&quot;,
+                        &quot;Blue&quot;,
+                        &quot;Green&quot;,
+                        3),
+
+<span class="fc" id="L99">                tenthQuiz = quizService.createQuiz(fifthSubCategoryId,</span>
+                        &quot;Who is Real Madrid's all-time top goalscorer?&quot;,
+                        &quot;Raul&quot;,
+                        &quot;Di Stefano&quot;,
+                        &quot;Zidane&quot;,
+                        &quot;Cristiano Ronaldo&quot;,
+                        3);
+<span class="fc" id="L106">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span></div></body></html>

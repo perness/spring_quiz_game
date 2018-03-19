@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ncorp.selenium.SeleniumLocalIT
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.122 sec - in com.ncorp.selenium.SeleniumLocalIT
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.246 sec - in com.ncorp.selenium.SeleniumLocalIT
