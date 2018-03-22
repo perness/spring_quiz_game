@@ -1,6 +1,7 @@
 package com.ncorp.service;
 
 import com.ncorp.entity.Category;
+import com.ncorp.entity.MatchStats;
 import com.ncorp.entity.Quiz;
 import com.ncorp.entity.SubCategory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,10 @@ public class ResetService {
     private EntityManager entityManager;
 
     public void resetDatabase(){
+
+
+        deleteEntities(MatchStats.class);
+        deleteEntities(MatchStats.class);
         deleteEntities(Quiz.class);
         deleteEntities(SubCategory.class);
         deleteEntities(Category.class);

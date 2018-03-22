@@ -139,6 +139,12 @@
                 <artifactId>maven-failsafe-plugin</artifactId>
             </plugin>
 
+            <!-- OWASP plugin (security check) -->
+            <plugin>
+                <groupId>org.owasp</groupId>
+                <artifactId>dependency-check-maven</artifactId>
+            </plugin>
+
         </plugins>
 
         <pluginManagement>
@@ -220,6 +226,20 @@
                             <id>default-report-integration</id>
                             <goals>
                                 <goal>report-integration</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <!-- OWASP plugin -->
+                <plugin>
+                    <groupId>org.owasp</groupId>
+                    <artifactId>dependency-check-maven</artifactId>
+                    <version>3.1.1</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>check</goal>
                             </goals>
                         </execution>
                     </executions>

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import static org.junit.Assert.assertTrue;
 
 
-public class IndexPO extends PageObject {
+public class IndexPO extends LayoutPO {
 
     public IndexPO(WebDriver driver, String host, int port) {
         super(driver, host, port);

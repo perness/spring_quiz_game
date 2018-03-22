@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertTrue;
 
-public class MatchPO extends PageObject {
+public class MatchPO extends LayoutPO {
 
 
     public MatchPO(WebDriver driver, String host, int port) {

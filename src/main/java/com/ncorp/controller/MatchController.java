@@ -3,6 +3,7 @@ package com.ncorp.controller;
 import com.ncorp.entity.Category;
 import com.ncorp.entity.Quiz;
 import com.ncorp.service.CategoryService;
+import com.ncorp.service.MatchStatsService;
 import com.ncorp.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;
 import javax.enterprise.context.SessionScoped;
@@ -10,7 +11,8 @@ import javax.inject.Named;
 import java.io.Serializable;
 import java.util.List;
 
-@Named @SessionScoped
+@Named
+@SessionScoped
 public class MatchController implements Serializable {
 
     private boolean isGameOn = false;
@@ -25,11 +27,21 @@ public class MatchController implements Serializable {
     @Autowired
     private QuizService quizService;
 
+    @Autowired
+    private MatchStatsService matchStatsService;
+
+    @Autowired
+    private UserInfoController userInfoController;
+
     public boolean isMatchOn(){
         return isGameOn;
     }
 
     public String newMatch(){
+        String userName = userInfoController.getUserName();
+
+        if (isGameOn) matchStatsService.reportLoss(userName);
+
         isGameOn = true;
         selectedCategoryId = null;
         return "/match.jsf&faces-redirect=true";
@@ -58,15 +70,19 @@ public class MatchController implements Serializable {
     }
 
     public String answerQuiz(int index){
+        String userName = userInfoController.getUserName();
+
         if (index == getCurrentQuiz().getCorrectAnswer()){
             counter++;
             if (counter == NUMBER_OF_QUIZZES) {
                 isGameOn = false;
+                matchStatsService.reportVictory(userName);
                 return "result.jsf?victory=true&faces-redirect=true";
             }
         }
         else {
             isGameOn = true;
+            matchStatsService.reportLoss(userName);
             return "result.jsf?defeat=true&faces-redirect=true";
         }
 

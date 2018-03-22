@@ -1,5 +1,7 @@
 package com.ncorp.entity;
 
+import org.hibernate.validator.constraints.Range;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -15,7 +17,9 @@ public class MatchStats {
     @OneToOne
     private User user;
 
-    private int matchesWon, matchesLost;
+    @Range(min = 0)
+    private Integer matchesWon = 0, matchesLost = 0;
+
 
     public Long getId() {
         return id;
@@ -33,7 +37,7 @@ public class MatchStats {
         this.user = user;
     }
 
-    public int getMatchesWon() {
+    public Integer getMatchesWon() {
         return matchesWon;
     }
 
@@ -41,7 +45,7 @@ public class MatchStats {
         this.matchesWon = matchesWon;
     }
 
-    public int getMatchesLost() {
+    public Integer getMatchesLost() {
         return matchesLost;
     }
 

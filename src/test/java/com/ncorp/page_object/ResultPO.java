@@ -3,7 +3,7 @@ package com.ncorp.page_object;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ResultPO extends PageObject {
+public class ResultPO extends LayoutPO {
 
     public ResultPO(WebDriver driver, String host, int port) {
         super(driver, host, port);

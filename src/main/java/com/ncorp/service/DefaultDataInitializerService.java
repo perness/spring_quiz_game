@@ -13,8 +13,13 @@ public class DefaultDataInitializerService {
     @Autowired
     private CategoryService categoryService;
 
+    @Autowired
+    private UserService userService;
+
     @PostConstruct
     public void init(){
+        userService.createUser("foo", "123456789");
+
         Long firstCategoryId = categoryService.createCategory("first category"),
                 secondCategoryId = categoryService.createCategory("second category");
 
@@ -103,5 +108,8 @@ public class DefaultDataInitializerService {
                         "Zidane",
                         "Cristiano Ronaldo",
                         3);
+
+
+
     }
 }

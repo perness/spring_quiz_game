@@ -1,41 +1,34 @@
 package com.ncorp.entity;
 
 import org.hibernate.validator.constraints.NotBlank;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.Set;
 
 @Entity
+@Table(name = "USERS")
 public class User {
 
     @Id
-    @GeneratedValue
-    private Long id;
-
-    @NotNull
     @NotBlank
-    @Size(max = 30)
+    @Column(name = "USERNAME")
     private String userName;
 
-    @NotNull
     @NotBlank
-    @Size(min = 8, max = 30)
     private String password;
 
+    /*@NotBlank
+    private String roles;*/
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    private Set<String> roles;
+
     @NotNull
-    private String roles;
+    private Boolean enabled;
 
-    private boolean enabled;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+    public User(){}
 
     public String getUserName() {
         return userName;
@@ -53,19 +46,19 @@ public class User {
         this.password = password;
     }
 
-    public String getRoles() {
+    public Set<String> getRoles() {
         return roles;
     }
 
-    public void setRoles(String roles) {
+    public void setRoles(Set<String> roles) {
         this.roles = roles;
     }
 
-    public boolean isEnabled() {
+    public Boolean getEnabled() {
         return enabled;
     }
 
-    public void setEnabled(boolean enabled) {
+    public void setEnabled(Boolean enabled) {
         this.enabled = enabled;
     }
 }
