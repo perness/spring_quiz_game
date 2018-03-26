@@ -25,13 +25,12 @@ public class SignUpController implements Serializable {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    private String userName, password;
+    private String username, password;
 
     public String registerUser(){
-        User user = userService.createUser(userName, password);
 
-        if (user == null) {
-            UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
+        if (userService.createUser(username, password)) {
+            UserDetails userDetails = userDetailsService.loadUserByUsername(username);
 
             UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(
                     userDetails,
@@ -50,12 +49,12 @@ public class SignUpController implements Serializable {
 
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {

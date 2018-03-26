@@ -4,6 +4,7 @@ import com.ncorp.Application;
 import com.ncorp.page_object.IndexPO;
 import com.ncorp.page_object.MatchPO;
 import com.ncorp.page_object.ResultPO;
+import com.ncorp.page_object.SignUpPO;
 import com.ncorp.service.QuizService;
 import org.junit.*;
 import org.junit.runner.RunWith;
@@ -12,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 import static org.junit.Assert.*;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
@@ -22,6 +25,8 @@ public class SeleniumLocalIT {
 
     private static WebDriver webDriver;
     private IndexPO indexPO;
+
+    private static final AtomicInteger counter = new AtomicInteger(0);
 
     @Autowired
     private QuizService quizService;
@@ -51,9 +56,27 @@ public class SeleniumLocalIT {
         assertTrue("Failed to start from Home Page", indexPO.isOnPage());
     }
 
+    private String getUniqueId(){
+        return "foo_SeleniumLocalIT_" + counter.getAndIncrement();
+    }
+
+    private IndexPO createUser(){
+        indexPO.toStartingPage();
+
+        SignUpPO signUpPO = indexPO.goToSignUp();
+
+        assertTrue(signUpPO.isOnPage());
+
+        IndexPO po = signUpPO.registerNewUser(getUniqueId(), "password");
+
+        assertTrue(po.isOnPage());
+
+        return po;
+    }
+
     @Test
     public void testNewMatch(){
-        assertTrue(indexPO.isOnPage());
+        indexPO = createUser();
 
         MatchPO matchPO = indexPO.startNewMatch();
 
@@ -64,7 +87,7 @@ public class SeleniumLocalIT {
 
     @Test
     public void testFirstQuiz(){
-        assertTrue(indexPO.isOnPage());
+        indexPO = createUser();
 
         MatchPO matchPO = indexPO.startNewMatch();
 
@@ -79,7 +102,7 @@ public class SeleniumLocalIT {
 
     @Test
     public void testWrongAnswer(){
-        assertTrue(indexPO.isOnPage());
+        indexPO = createUser();
 
         MatchPO matchPO = indexPO.startNewMatch();
 
@@ -103,6 +126,8 @@ public class SeleniumLocalIT {
 
     @Test
     public void testWinMatch(){
+        indexPO = createUser();
+
         ResultPO resultPO = null;
 
         assertTrue(indexPO.isOnPage());
@@ -132,6 +157,30 @@ public class SeleniumLocalIT {
         assertTrue(resultPO.haveWon());
         assertFalse(resultPO.haveLost());
     }
+
+    @Test
+    public void testCreateAndLogoutUser(){
+        String username = getUniqueId();
+
+        assertFalse(indexPO.isLoggedIn());
+
+        SignUpPO signUpPO = indexPO.goToSignUp();
+
+        IndexPO indexPO1 = signUpPO.registerNewUser(username, "password");
+
+        assertNotNull(indexPO1);
+
+        assertTrue(indexPO1.isLoggedIn());
+        assertTrue(indexPO1.isOnPage());
+        assertTrue(indexPO1.getDriver().getPageSource().contains(username));
+
+        indexPO1.doLogout();
+
+        assertFalse(indexPO1.isLoggedIn());
+        assertFalse(indexPO1.getDriver().getPageSource().contains(username));
+    }
+
+
 }
 
 

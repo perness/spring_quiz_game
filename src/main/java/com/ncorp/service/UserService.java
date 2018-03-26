@@ -19,10 +19,10 @@ public class UserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public User createUser(String userName, String password){
+    public boolean createUser(String userName, String password){
         String hashedPassword = passwordEncoder.encode(password);
 
-        if (entityManager.find(User.class, userName) != null) return null;
+        if (entityManager.find(User.class, userName) != null) return false;
 
         User user = new User();
 
@@ -33,6 +33,6 @@ public class UserService {
 
         entityManager.persist(user);
 
-        return user;
+        return true;
     }
 }

@@ -32,7 +32,7 @@ public class MatchStatsServiceTest extends ServiceTestBase {
         String userName = "name";
         String password = "password";
 
-        User user = userService.createUser(userName, password);
+        assertTrue(userService.createUser(userName, password));
 
         MatchStats matchStats = matchStatsService.getMatchStats(userName);
 
