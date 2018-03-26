@@ -3,7 +3,7 @@ language: java
 sudo: enabled
 
 jdk:
-  - oraclejkd8
+  - oraclejdk8
 
 services:
   - docker

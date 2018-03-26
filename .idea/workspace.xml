@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a41e710a-68be-4a95-b3b9-df5384888823" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/RedirectForwardHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/RedirectForwardHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/SignUpController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/SignUpController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/CategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/service/CategoryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/signup.xhtml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/signup.xhtml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/LayoutPO.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/LayoutPO.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/signup.xhtml" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/signup.xhtml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/controller/RedirectForwardHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/controller/SignUpController.class" afterPath="$PROJECT_DIR$/target/classes/com/ncorp/controller/SignUpController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/CategoryService.class" afterPath="$PROJECT_DIR$/target/classes/com/ncorp/service/CategoryService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/DefaultDataInitializerService.class" afterPath="$PROJECT_DIR$/target/classes/com/ncorp/service/DefaultDataInitializerService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/ncorp/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/LayoutPO.class" afterPath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/LayoutPO.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/selenium/SeleniumLocalIT.class" afterPath="$PROJECT_DIR$/target/test-classes/com/ncorp/selenium/SeleniumLocalIT.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/MatchStatsServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/MatchStatsServiceTest.class" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,12 +66,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="80">
-                <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -213,8 +204,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/LayoutPO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/layout.xhtml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -582,7 +573,7 @@
       <workItem from="1521652176692" duration="13640000" />
       <workItem from="1521737038373" duration="17414000" />
       <workItem from="1522081446288" duration="706000" />
-      <workItem from="1522082563094" duration="1459000" />
+      <workItem from="1522082563094" duration="1717000" />
     </task>
     <servers />
   </component>
@@ -619,7 +610,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133285000" />
+    <option name="totallyTimeSpent" value="133543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,6 +639,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5514874" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -665,7 +657,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1065,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1085,10 +1068,18 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="80">
-            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
