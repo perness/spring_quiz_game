@@ -2,33 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a41e710a-68be-4a95-b3b9-df5384888823" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/backend.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/frontend.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/report/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/report/report.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_195.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kohlschutter_junixsocket_junixsocket_common_2_0_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kohlschutter_junixsocket_junixsocket_native_common_2_0_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_3_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_5_0_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_jsf_spring_boot_starter_unknown.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212_jre7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_duct_tape_duct_tape_1_0_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_tcp_unix_socket_proxy_1_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_visible_assertions_visible_assertions_2_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scijava_native_lib_loader_2_0_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_ext_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_selenium_1_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zeroturnaround_zt_exec_1_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1.0__createDB.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/StubApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/src/test/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/backend/backend.iml" afterPath="$PROJECT_DIR$/backend/backend.iml" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" afterPath="$PROJECT_DIR$/backend/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/spring_project/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/spring_project/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/ncorp/spring_project/App.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/target/test-classes/com/ncorp/spring_project/AppTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend.iml" afterPath="$PROJECT_DIR$/frontend/frontend.iml" />
+      <change beforePath="$PROJECT_DIR$/frontend/pom.xml" afterPath="$PROJECT_DIR$/frontend/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/spring_project/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/spring_project/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/com/ncorp/spring_project/App.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/test-classes/com/ncorp/spring_project/AppTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/Category.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/MatchStats.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/MatchStats.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/Quiz.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/Quiz.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/SubCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/SubCategory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/CategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/service/CategoryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/DefaultDataInitializerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/service/DefaultDataInitializerService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/MatchStatsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/service/MatchStatsService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/QuizService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/service/QuizService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/CategoryServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/service/CategoryServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/QuizServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/service/QuizServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/ResetService.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/service/ResetService.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/ServiceTestBase.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/service/ServiceTestBase.java" />
+      <change beforePath="$PROJECT_DIR$/report/pom.xml" afterPath="$PROJECT_DIR$/report/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/report/report.iml" afterPath="$PROJECT_DIR$/report/report.iml" />
+      <change beforePath="$PROJECT_DIR$/report/target/classes/com/ncorp/spring_project/App.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/target/test-classes/com/ncorp/spring_project/AppTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring_project.iml" afterPath="$PROJECT_DIR$/spring_project.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/Application.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/PasswordConfig.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/PasswordConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/RedirectForwardHandler.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/RedirectForwardHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/WebSecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/MatchController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/SignUpController.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/SignUpController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/UserInfoController.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/UserInfoController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/Category.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/Category.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/MatchStats.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/MatchStats.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/Quiz.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/Quiz.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/SubCategory.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/SubCategory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/User.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/CategoryService.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/CategoryService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/DefaultDataInitializerService.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/DefaultDataInitializerService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/MatchStatsService.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/MatchStatsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/QuizService.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/QuizService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/service/UserService.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/user_roles/Roles.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/assets/style.css" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/assets/style.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/index.xhtml" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/index.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/layout.xhtml" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/layout.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/login.xhtml" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/login.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/match.xhtml" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/match.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/result.xhtml" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/result.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/signup.xhtml" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/signup.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/frontend/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/LocalApplicationRunner.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/LocalApplicationRunner.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/IndexPO.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/IndexPO.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/LayoutPO.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/LayoutPO.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/MatchPO.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/MatchPO.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/PageObject.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/PageObject.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/ResultPO.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/ResultPO.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/SignUpPO.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/SignUpPO.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumDriverHandler.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDriverHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/CategoryServiceTest.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/CategoryServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/QuizServiceTest.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/QuizServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/ResetService.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/ResetService.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/service/ServiceTestBase.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/ServiceTestBase.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/logback-test.xml" afterPath="$PROJECT_DIR$/frontend/src/test/resources/logback-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/assets/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/index.xhtml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/layout.xhtml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/login.xhtml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/match.xhtml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/result.xhtml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/signup.xhtml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/Application.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/PasswordConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/RedirectForwardHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/WebSecurityConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/controller/MatchController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/controller/SignUpController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/controller/UserInfoController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/entity/Category.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/entity/MatchStats.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/entity/Quiz.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/entity/SubCategory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/CategoryService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/DefaultDataInitializerService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/MatchStatsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/QuizService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/service/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/user_roles/Roles.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/LocalApplicationRunner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/IndexPO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/LayoutPO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/MatchPO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/PageObject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/ResultPO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/page_object/SignUpPO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/selenium/SeleniumDriverHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/selenium/SeleniumLocalIT.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/CategoryServiceTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/DefaultDataInitializerServiceTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/MatchStatsServiceTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/QuizServiceTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/ResetService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/service/ServiceTestBase.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,14 +151,64 @@
       <FILTER>com.ncorp.selenium.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="DefaultDataInitializerServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="580">
+              <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/SignUpController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/MatchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/UserInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,17 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/service/CategoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncorp/Application.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/LocalApplicationRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/service/QuizServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/service/ServiceTestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/service/DefaultDataInitializerService.java" />
-        <option value="/JPA QL Fragment (QuizService.java:1406).ql" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/service/CategoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF.resources/result.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF.resources/match.xhtml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF.resources/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF.resources/layout.xhtml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/result.xhtml" />
@@ -110,7 +249,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/match.xhtml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumDriverHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/entity/MatchStats.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/login.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/user_roles/Roles.java" />
@@ -134,11 +272,23 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/page_object/LayoutPO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/layout.xhtml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/report/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" />
         <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/CategoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/CategoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/StubApplication.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/CategoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/MatchStatsServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/QuizServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/MatchController.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/SignUpController.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/frontend/pom.xml" />
       </list>
     </option>
@@ -215,22 +365,25 @@
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -238,6 +391,7 @@
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -246,6 +400,7 @@
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -255,42 +410,13 @@
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,10 +438,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quiz_game" />
+      <recent name="$PROJECT_DIR$/frontend/src/test" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/frontend/src/test/java/resources" />
+      <recent name="$PROJECT_DIR$/frontend/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ncorp" />
+      <recent name="com.ncorp.service" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
@@ -350,7 +482,7 @@
     <configuration name="LocalApplicationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ncorp.*" />
+          <option name="PATTERN" value="com.ncorp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,7 +495,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spring_project" />
+      <module name="frontend" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -507,6 +639,12 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ncorp.Application" />
+      <module name="frontend" />
+      <envs />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -540,12 +678,13 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.LocalApplicationRunner" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MatchStatsServiceTest.testStats" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumLocalIT.testCreateAndLogoutUser" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumLocalIT" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumLocalIT.testNewMatch" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -590,7 +729,7 @@
       <workItem from="1521652176692" duration="13640000" />
       <workItem from="1521737038373" duration="17414000" />
       <workItem from="1522081446288" duration="706000" />
-      <workItem from="1522082563094" duration="5524000" />
+      <workItem from="1522082563094" duration="15069000" />
     </task>
     <servers />
   </component>
@@ -627,7 +766,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137350000" />
+    <option name="totallyTimeSpent" value="146895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,6 +779,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="-8" width="1849" height="1089" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -663,7 +803,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6727689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.69908464" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69908464" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24593838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -736,24 +876,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/result.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_project.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" />
-    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html" />
-    <entry file="file://$PROJECT_DIR$/target/site/jacoco-it/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/entity/Category.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -774,7 +897,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
@@ -782,64 +905,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/match.xhtml">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/match.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/service/QuizServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/service/ServiceTestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/service/ResetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/entity/SubCategory.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/SubCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumDriverHandler.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDriverHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/entity/Quiz.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/Quiz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/service/CategoryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/service/QuizService.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/QuizService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="39" column="82" lean-forward="false" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
@@ -847,7 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/entity/MatchStats.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/MatchStats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
@@ -855,17 +950,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/page_object/MatchPO.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/MatchPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/page_object/ResultPO.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/ResultPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +972,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/PasswordConfig.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/PasswordConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
@@ -884,14 +980,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/login.xhtml">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/login.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/service/MatchStatsService.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/MatchStatsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
@@ -899,7 +995,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
@@ -916,14 +1012,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/LocalApplicationRunner.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/LocalApplicationRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
@@ -931,7 +1027,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/page_object/IndexPO.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/IndexPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -939,15 +1035,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/service/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -955,7 +1043,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/RedirectForwardHandler.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/RedirectForwardHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
@@ -963,7 +1051,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/page_object/PageObject.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
@@ -971,40 +1059,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/signup.xhtml">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/signup.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/service/MatchStatsServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/page_object/LayoutPO.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/LayoutPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
@@ -1015,15 +1077,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/controller/SignUpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/layout.xhtml">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/layout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
@@ -1031,7 +1085,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="67" column="87" lean-forward="false" selection-start-line="67" selection-start-column="87" selection-end-line="67" selection-end-column="87" />
@@ -1039,18 +1093,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/service/DefaultDataInitializerService.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/DefaultDataInitializerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1063,34 +1109,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pom.xml">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/SignUpPO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1099,26 +1121,184 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="80">
-            <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/page_object/SignUpPO.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="40">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/report/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="820">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/db/migration/V1.0__createDB.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/resources/logback-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/ncorp/StubApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/CategoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/MatchStatsServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/QuizServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/ResetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/ServiceTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4342">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/MatchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/SignUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,6 +1359,7 @@
             <option name="proportions">
               <list>
                 <option value="0.42088854" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
