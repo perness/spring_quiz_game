@@ -1,1 +1,7 @@
-com/ncorp/spring_project/AppTest.class
+com/ncorp/StubApplication.class
+com/ncorp/service/ServiceTestBase.class
+com/ncorp/service/CategoryServiceTest.class
+com/ncorp/service/DefaultDataInitializerServiceTest.class
+com/ncorp/service/QuizServiceTest.class
+com/ncorp/service/MatchStatsServiceTest.class
+com/ncorp/service/ResetService.class

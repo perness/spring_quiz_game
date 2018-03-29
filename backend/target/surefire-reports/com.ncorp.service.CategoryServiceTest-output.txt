@@ -1,0 +1,72 @@
+2018-03-29 21:44:16.976  INFO 6539 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ncorp.service.CategoryServiceTest], using SpringBootContextLoader
+2018-03-29 21:44:16.977  INFO 6539 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.ncorp.service.CategoryServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-03-29 21:44:16.982  INFO 6539 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-03-29 21:44:16.984  INFO 6539 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-03-29 21:44:16.984  INFO 6539 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@277f6edd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@340468fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60e6fb27, org.springframework.test.context.transaction.TransactionalTestExecutionListener@773affee, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b6f7e52, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3c3b807d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6bd37b1e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4bb62c05, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b7b56cf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7ba305b5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@bd89a54]
+Hibernate: delete from user_roles
+Hibernate: delete from match_stats
+Hibernate: delete from users
+Hibernate: delete from quiz
+Hibernate: delete from sub_category
+Hibernate: delete from category
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select subcategor0_.category_id as category3_3_0_, subcategor0_.id as id1_3_0_, subcategor0_.id as id1_3_1_, subcategor0_.category_id as category3_3_1_, subcategor0_.name as name2_3_1_ from sub_category subcategor0_ where subcategor0_.category_id=?
+Hibernate: select subcategor0_.category_id as category3_3_0_, subcategor0_.id as id1_3_0_, subcategor0_.id as id1_3_1_, subcategor0_.category_id as category3_3_1_, subcategor0_.name as name2_3_1_ from sub_category subcategor0_ where subcategor0_.category_id=?
+Hibernate: select subcategor0_.category_id as category3_3_0_, subcategor0_.id as id1_3_0_, subcategor0_.id as id1_3_1_, subcategor0_.category_id as category3_3_1_, subcategor0_.name as name2_3_1_ from sub_category subcategor0_ where subcategor0_.category_id=?
+Hibernate: delete from user_roles
+Hibernate: delete from match_stats
+Hibernate: delete from users
+Hibernate: delete from quiz
+Hibernate: delete from sub_category
+Hibernate: delete from category
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: insert into category (id, name) values (null, ?)
+2018-03-29 21:44:17.018  WARN 6539 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2018-03-29 21:44:17.019 ERROR 6539 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_46CCWNSI9409T36LURVTYLJAK_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES ('name', 9)"; SQL statement:
+insert into category (id, name) values (null, ?) [23505-194]
+Hibernate: delete from user_roles
+Hibernate: delete from match_stats
+Hibernate: delete from users
+Hibernate: delete from quiz
+Hibernate: delete from sub_category
+Hibernate: delete from category
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: delete from user_roles
+Hibernate: delete from match_stats
+Hibernate: delete from users
+Hibernate: delete from quiz
+Hibernate: delete from sub_category
+Hibernate: delete from category
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Category name: CategoryName
+Hibernate: delete from user_roles
+Hibernate: delete from match_stats
+Hibernate: delete from users
+Hibernate: delete from quiz
+Hibernate: delete from sub_category
+Hibernate: delete from category
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: delete from user_roles
+Hibernate: delete from match_stats
+Hibernate: delete from users
+Hibernate: delete from quiz
+Hibernate: delete from sub_category
+Hibernate: delete from category
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+2018-03-29 21:44:17.059  INFO 6539 --- [       Thread-4] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@17053b5: startup date [Thu Mar 29 21:44:12 CEST 2018]; root of context hierarchy
+2018-03-29 21:44:17.062  INFO 6539 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

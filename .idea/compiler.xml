@@ -15,7 +15,7 @@
       <module name="backend" target="1.8" />
       <module name="frontend" target="1.8" />
       <module name="report" target="1.8" />
-      <module name="spring_project" target="1.8" />
+      <module name="spring_project" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

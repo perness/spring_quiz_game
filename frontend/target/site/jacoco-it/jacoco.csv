@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+frontend,com.ncorp.controller,SignUpController,2,53,2,2,1,14,2,6,0,6
+frontend,com.ncorp.controller,MatchController,6,109,1,7,1,29,2,13,1,10
+frontend,com.ncorp.controller,UserInfoController,0,15,0,0,0,3,0,3,0,3
+frontend,com.ncorp,WebSecurityConfig,12,90,0,0,4,26,0,4,0,4
+frontend,com.ncorp,Application,5,3,0,0,2,1,1,1,1,1
+frontend,com.ncorp,RedirectForwardHandler,0,5,0,0,0,2,0,2,0,2

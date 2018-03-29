@@ -1,1 +1,12 @@
-com/ncorp/spring_project/AppTest.class
+com/ncorp/selenium/SeleniumDockerIT.class
+com/ncorp/page_object/SignUpPO.class
+com/ncorp/page_object/LayoutPO.class
+com/ncorp/page_object/MatchPO.class
+com/ncorp/selenium/SeleniumLocalIT.class
+com/ncorp/LocalApplicationRunner.class
+com/ncorp/page_object/PageObject.class
+com/ncorp/selenium/SeleniumDriverHandler.class
+com/ncorp/page_object/ResultPO.class
+com/ncorp/selenium/SeleniumTestBase.class
+com/ncorp/selenium/SeleniumDockerIT$DockerInitializer.class
+com/ncorp/page_object/IndexPO.class

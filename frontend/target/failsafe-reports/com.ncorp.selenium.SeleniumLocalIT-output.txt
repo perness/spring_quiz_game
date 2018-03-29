@@ -1,0 +1,229 @@
+21:44:20.681 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ncorp.selenium.SeleniumLocalIT], using SpringBootContextLoader
+21:44:20.692 [main] INFO  org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ncorp.selenium.SeleniumLocalIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:44:20.774 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+21:44:20.804 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@107bfcb2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7bac686b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2ab26378, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f9f3928, org.springframework.test.context.transaction.TransactionalTestExecutionListener@404eca05, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@58b91d57, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@61a91c9b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17092fff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2121d1f9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31e2232f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1806bc4c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@462e1e64]
+Starting ChromeDriver 2.36.540471 (9c759b81a907e70363c6312294d30b6ccccc2752) on port 21800
+Only local connections are allowed.
+Mar 29, 2018 9:44:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.4.RELEASE)
+
+21:44:23.404 [main] INFO  com.ncorp.selenium.SeleniumLocalIT - Starting SeleniumLocalIT on Lenovo with PID 6599 (started by nima in /home/nima/Documents/java_enterprise/spring_project/frontend)
+21:44:23.404 [main] INFO  com.ncorp.selenium.SeleniumLocalIT - The following profiles are active: test
+21:44:23.442 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f8488ef: startup date [Thu Mar 29 21:44:23 CEST 2018]; root of context hierarchy
+21:44:23.986 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+21:44:25.136 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:44:25.353 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$880f9c6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:44:25.401 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.joinfaces.javaxfaces.ProjectStageAutoConfiguration' of type [org.joinfaces.javaxfaces.ProjectStageAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:44:25.788 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 0 (http)
+21:44:25.803 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:44:25.804 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+21:44:26.239 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21:44:26.274 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:44:26.275 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2838 ms
+21:44:26.660 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:44:26.661 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:44:26.662 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:44:26.662 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:44:26.663 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+21:44:26.663 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'openEntityManagerInViewFilter' to: [/*]
+21:44:27.091 [localhost-startStop-1] INFO  org.reflections.Reflections - Reflections took 377 ms to scan 6 urls, producing 718 keys and 3790 values 
+21:44:27.479 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:44:27.535 [localhost-startStop-1] INFO  javax.enterprise.resource.webcontainer.jsf.config - Initializing Mojarra 2.2.14 ( 20161114-2152 unable to get svn info) for context ''
+21:44:27.704 [localhost-startStop-1] INFO  javax.enterprise.resource.webcontainer.jsf.application - JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+21:44:28.335 [localhost-startStop-1] INFO  org.primefaces.webapp.PostConstructApplicationEventListener - Running on PrimeFaces 6.1
+21:44:28.336 [localhost-startStop-1] INFO  org.primefaces.extensions.application.PostConstructApplicationEventListener - Running on PrimeFaces Extensions 6.1
+21:44:28.336 [localhost-startStop-1] INFO  org.omnifaces.VersionLoggerEventListener - Using OmniFaces version 1.14
+21:44:28.508 [main] INFO  org.flywaydb.core.internal.util.VersionPrinter - Flyway 3.2.1 by Boxfuse
+21:44:28.963 [main] INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory - Database: jdbc:h2:mem:test (H2 1.4)
+21:44:29.032 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Validated 1 migration (execution time 00:00.016s)
+21:44:29.056 [main] INFO  org.flywaydb.core.internal.metadatatable.MetaDataTableImpl - Creating Metadata table: "PUBLIC"."schema_version"
+21:44:29.090 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+21:44:29.090 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version 1.0 - createDB
+21:44:29.143 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.089s).
+21:44:29.270 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+21:44:29.304 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+21:44:29.406 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+21:44:29.407 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+21:44:29.409 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+21:44:29.455 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+21:44:29.566 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+21:44:30.238 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaValidator - HHH000229: Running schema validator
+21:44:30.294 [main] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+21:44:30.492 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into users (enabled, password, username) values (?, ?, ?)
+Hibernate: insert into user_roles (user_username, roles) values (?, ?)
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: insert into category (id, name) values (null, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select category0_.id as id1_0_0_, category0_.name as name2_0_0_ from category category0_ where category0_.id=?
+Hibernate: insert into sub_category (id, category_id, name) values (null, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: insert into quiz (id, answer_four, answer_one, answer_three, answer_two, correct_answer, question, sub_category_id) values (null, ?, ?, ?, ?, ?, ?, ?)
+21:44:31.790 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52882e1a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2af798ce, org.springframework.security.web.header.HeaderWriterFilter@ffe88d4, org.springframework.security.web.authentication.logout.LogoutFilter@7cf6b3b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79dd546d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b54a429, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e377701, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72147453, org.springframework.security.web.session.SessionManagementFilter@755414c6, org.springframework.security.web.access.ExceptionTranslationFilter@bab6f2f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3476369b]
+21:44:31.986 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f8488ef: startup date [Thu Mar 29 21:44:23 CEST 2018]; root of context hierarchy
+21:44:32.063 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.ncorp.RedirectForwardHandler.forward()
+21:44:32.067 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:44:32.067 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:44:32.094 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:44:32.094 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:44:32.133 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:44:32.503 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+21:44:32.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+21:44:32.518 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:44:32.553 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 38257 (http)
+21:44:32.569 [main] INFO  com.ncorp.selenium.SeleniumLocalIT - Started SeleniumLocalIT in 9.918 seconds (JVM running for 12.738)
+21:44:32.992 [http-nio-auto-1-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:44:32.992 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:44:33.013 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into users (enabled, password, username) values (?, ?, ?)
+Hibernate: insert into user_roles (user_username, roles) values (?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into match_stats (id, matches_lost, matches_won, user_username) values (null, ?, ?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select count(quiz0_.id) as col_0_0_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ?
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select quiz0_.id as id1_2_0_, quiz0_.answer_four as answer_f2_2_0_, quiz0_.answer_one as answer_o3_2_0_, quiz0_.answer_three as answer_t4_2_0_, quiz0_.answer_two as answer_t5_2_0_, quiz0_.correct_answer as correct_6_2_0_, quiz0_.question as question7_2_0_, quiz0_.sub_category_id as sub_cate8_2_0_, subcategor1_.id as id1_3_1_, subcategor1_.category_id as category3_3_1_, subcategor1_.name as name2_3_1_, category2_.id as id1_0_2_, category2_.name as name2_0_2_ from quiz quiz0_ inner join sub_category subcategor1_ on quiz0_.sub_category_id=subcategor1_.id inner join category category2_ on subcategor1_.category_id=category2_.id where quiz0_.id=?
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: update match_stats set matches_lost=?, matches_won=?, user_username=? where id=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into users (enabled, password, username) values (?, ?, ?)
+Hibernate: insert into user_roles (user_username, roles) values (?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into match_stats (id, matches_lost, matches_won, user_username) values (null, ?, ?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select count(quiz0_.id) as col_0_0_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+counter: 0
+Hibernate: select quiz0_.id as id1_2_0_, quiz0_.answer_four as answer_f2_2_0_, quiz0_.answer_one as answer_o3_2_0_, quiz0_.answer_three as answer_t4_2_0_, quiz0_.answer_two as answer_t5_2_0_, quiz0_.correct_answer as correct_6_2_0_, quiz0_.question as question7_2_0_, quiz0_.sub_category_id as sub_cate8_2_0_, subcategor1_.id as id1_3_1_, subcategor1_.category_id as category3_3_1_, subcategor1_.name as name2_3_1_, category2_.id as id1_0_2_, category2_.name as name2_0_2_ from quiz quiz0_ inner join sub_category subcategor1_ on quiz0_.sub_category_id=subcategor1_.id inner join category category2_ on subcategor1_.category_id=category2_.id where quiz0_.id=?
+counter: 1
+Hibernate: select quiz0_.id as id1_2_0_, quiz0_.answer_four as answer_f2_2_0_, quiz0_.answer_one as answer_o3_2_0_, quiz0_.answer_three as answer_t4_2_0_, quiz0_.answer_two as answer_t5_2_0_, quiz0_.correct_answer as correct_6_2_0_, quiz0_.question as question7_2_0_, quiz0_.sub_category_id as sub_cate8_2_0_, subcategor1_.id as id1_3_1_, subcategor1_.category_id as category3_3_1_, subcategor1_.name as name2_3_1_, category2_.id as id1_0_2_, category2_.name as name2_0_2_ from quiz quiz0_ inner join sub_category subcategor1_ on quiz0_.sub_category_id=subcategor1_.id inner join category category2_ on subcategor1_.category_id=category2_.id where quiz0_.id=?
+counter: 2
+Hibernate: select quiz0_.id as id1_2_0_, quiz0_.answer_four as answer_f2_2_0_, quiz0_.answer_one as answer_o3_2_0_, quiz0_.answer_three as answer_t4_2_0_, quiz0_.answer_two as answer_t5_2_0_, quiz0_.correct_answer as correct_6_2_0_, quiz0_.question as question7_2_0_, quiz0_.sub_category_id as sub_cate8_2_0_, subcategor1_.id as id1_3_1_, subcategor1_.category_id as category3_3_1_, subcategor1_.name as name2_3_1_, category2_.id as id1_0_2_, category2_.name as name2_0_2_ from quiz quiz0_ inner join sub_category subcategor1_ on quiz0_.sub_category_id=subcategor1_.id inner join category category2_ on subcategor1_.category_id=category2_.id where quiz0_.id=?
+counter: 3
+Hibernate: select quiz0_.id as id1_2_0_, quiz0_.answer_four as answer_f2_2_0_, quiz0_.answer_one as answer_o3_2_0_, quiz0_.answer_three as answer_t4_2_0_, quiz0_.answer_two as answer_t5_2_0_, quiz0_.correct_answer as correct_6_2_0_, quiz0_.question as question7_2_0_, quiz0_.sub_category_id as sub_cate8_2_0_, subcategor1_.id as id1_3_1_, subcategor1_.category_id as category3_3_1_, subcategor1_.name as name2_3_1_, category2_.id as id1_0_2_, category2_.name as name2_0_2_ from quiz quiz0_ inner join sub_category subcategor1_ on quiz0_.sub_category_id=subcategor1_.id inner join category category2_ on subcategor1_.category_id=category2_.id where quiz0_.id=?
+counter: 4
+Hibernate: select quiz0_.id as id1_2_0_, quiz0_.answer_four as answer_f2_2_0_, quiz0_.answer_one as answer_o3_2_0_, quiz0_.answer_three as answer_t4_2_0_, quiz0_.answer_two as answer_t5_2_0_, quiz0_.correct_answer as correct_6_2_0_, quiz0_.question as question7_2_0_, quiz0_.sub_category_id as sub_cate8_2_0_, subcategor1_.id as id1_3_1_, subcategor1_.category_id as category3_3_1_, subcategor1_.name as name2_3_1_, category2_.id as id1_0_2_, category2_.name as name2_0_2_ from quiz quiz0_ inner join sub_category subcategor1_ on quiz0_.sub_category_id=subcategor1_.id inner join category category2_ on subcategor1_.category_id=category2_.id where quiz0_.id=?
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: update match_stats set matches_lost=?, matches_won=?, user_username=? where id=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into users (enabled, password, username) values (?, ?, ?)
+Hibernate: insert into user_roles (user_username, roles) values (?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into match_stats (id, matches_lost, matches_won, user_username) values (null, ?, ?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into users (enabled, password, username) values (?, ?, ?)
+Hibernate: insert into user_roles (user_username, roles) values (?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into match_stats (id, matches_lost, matches_won, user_username) values (null, ?, ?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select count(quiz0_.id) as col_0_0_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ?
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select subcategor0_.id as id1_3_0_, subcategor0_.category_id as category3_3_0_, subcategor0_.name as name2_3_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from sub_category subcategor0_ inner join category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select quiz0_.id as id1_2_, quiz0_.answer_four as answer_f2_2_, quiz0_.answer_one as answer_o3_2_, quiz0_.answer_three as answer_t4_2_, quiz0_.answer_two as answer_t5_2_, quiz0_.correct_answer as correct_6_2_, quiz0_.question as question7_2_, quiz0_.sub_category_id as sub_cate8_2_ from quiz quiz0_ cross join sub_category subcategor1_ where quiz0_.sub_category_id=subcategor1_.id and subcategor1_.category_id=? limit ? offset ?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into users (enabled, password, username) values (?, ?, ?)
+Hibernate: insert into user_roles (user_username, roles) values (?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select user0_.username as username1_5_0_, user0_.enabled as enabled2_5_0_, user0_.password as password3_5_0_, roles1_.user_username as user_use1_4_1_, roles1_.roles as roles2_4_1_ from users user0_ left outer join user_roles roles1_ on user0_.username=roles1_.user_username where user0_.username=?
+Hibernate: insert into match_stats (id, matches_lost, matches_won, user_username) values (null, ?, ?, ?)
+Hibernate: select matchstats0_.id as id1_1_, matchstats0_.matches_lost as matches_2_1_, matchstats0_.matches_won as matches_3_1_, matchstats0_.user_username as user_use4_1_ from match_stats matchstats0_ where matchstats0_.user_username=?
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
+Hibernate: select category0_.id as id1_0_, category0_.name as name2_0_ from category category0_
