@@ -7,5 +7,4 @@
 /home/nima/Documents/java_enterprise/spring_project/frontend/src/test/java/com/ncorp/page_object/MatchPO.java
 /home/nima/Documents/java_enterprise/spring_project/frontend/src/test/java/com/ncorp/page_object/SignUpPO.java
 /home/nima/Documents/java_enterprise/spring_project/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java
-/home/nima/Documents/java_enterprise/spring_project/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java
 /home/nima/Documents/java_enterprise/spring_project/frontend/src/test/java/com/ncorp/LocalApplicationRunner.java

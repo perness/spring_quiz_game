@@ -22,13 +22,13 @@
 
         <dependency>
             <groupId>com.ncorp.spring_project</groupId>
-            <artifactId>frontend</artifactId>
+            <artifactId>backend</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.ncorp.spring_project</groupId>
-            <artifactId>backend</artifactId>
+            <artifactId>frontend</artifactId>
             <version>${project.version}</version>
         </dependency>
 
@@ -63,7 +63,7 @@
             <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
-                <version>3.1.1</version>
+                <version>3.1.2</version>
                 <executions>
                     <execution>
                         <goals>

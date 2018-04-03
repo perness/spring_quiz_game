@@ -2,66 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a41e710a-68be-4a95-b3b9-df5384888823" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/test/resources/application-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_195.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_jsf_spring_boot_starter_unknown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212_jre7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_1_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1.0__createDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1.0__createDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/ResetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/ResetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/db/migration/V1.0__createDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/db/migration/V1.0__createDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.spring_project.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.spring_project.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/test-classes/com/ncorp/service/ResetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/test-classes/com/ncorp/service/ResetService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/login.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/match.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/match.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/result.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/result.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/signup.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/signup.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/LocalApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/LocalApplicationRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/login.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/match.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/match.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/result.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/result.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/signup.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/classes/META-INF/resources/signup.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.CategoryServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.CategoryServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.DefaultDataInitializerServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.DefaultDataInitializerServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.MatchStatsServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.MatchStatsServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.QuizServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.ncorp.service.QuizServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.CategoryServiceTest-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.CategoryServiceTest-output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.CategoryServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.CategoryServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.DefaultDataInitializerServiceTest-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.DefaultDataInitializerServiceTest-output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.DefaultDataInitializerServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.DefaultDataInitializerServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.MatchStatsServiceTest-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.MatchStatsServiceTest-output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.MatchStatsServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.MatchStatsServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.QuizServiceTest-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.QuizServiceTest-output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.QuizServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.ncorp.service.QuizServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/failsafe-reports/TEST-com.ncorp.selenium.SeleniumDockerIT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/failsafe-reports/com.ncorp.selenium.SeleniumDockerIT-output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/failsafe-reports/com.ncorp.selenium.SeleniumDockerIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/failsafe-reports/com.ncorp.selenium.SeleniumLocalIT-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/failsafe-reports/com.ncorp.selenium.SeleniumLocalIT-output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/jacoco-it.exec" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/jacoco-it.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/surefire-reports/TEST-com.ncorp.spring_project.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/surefire-reports/com.ncorp.spring_project.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/test-classes/com/ncorp/LocalApplicationRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/test-classes/com/ncorp/LocalApplicationRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/test-classes/com/ncorp/selenium/SeleniumLocalIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/test-classes/com/ncorp/selenium/SeleniumLocalIT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/quizgame-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/quizgame-exec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/test-classes/com/ncorp/selenium/SeleniumDockerIT$DockerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/test-classes/com/ncorp/selenium/SeleniumDockerIT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/report.iml" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/classes/com/ncorp/spring_project/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/surefire-reports/TEST-com.ncorp.spring_project.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/surefire-reports/com.ncorp.spring_project.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/target/test-classes/com/ncorp/spring_project/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/ncorp/spring_project/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/test/java/com/ncorp/spring_project/AppTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,52 +75,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="SeleniumDockerIT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/pom.xml">
+        <entry file="file://$PROJECT_DIR$/report/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="174" column="36" lean-forward="true" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeleniumLocalIT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-test.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/test/resources/application-test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeleniumTestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumTestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="68">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -171,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ncorp/user_roles/Roles.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/PasswordConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/service/ResetService.java" />
@@ -194,7 +128,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/layout.xhtml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/report/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/com/ncorp/service/CategoryServiceTest.java" />
         <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/CategoryServiceTest.java" />
@@ -210,7 +143,6 @@
         <option value="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/LocalApplicationRunner.java" />
         <option value="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java" />
         <option value="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumTestBase.java" />
-        <option value="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java" />
         <option value="$PROJECT_DIR$/backend/src/test/java/com/ncorp/service/DefaultDataInitializerServiceTest.java" />
         <option value="$PROJECT_DIR$/backend/pom.xml" />
         <option value="$PROJECT_DIR$/backend/src/test/resources/application.yml" />
@@ -222,6 +154,9 @@
         <option value="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/match.xhtml" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/result.xhtml" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/signup.xhtml" />
+        <option value="$PROJECT_DIR$/frontend/Dockerfile" />
+        <option value="$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java" />
+        <option value="$PROJECT_DIR$/report/pom.xml" />
       </list>
     </option>
   </component>
@@ -277,6 +212,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,156 +223,43 @@
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="jacoco-aggregate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_project" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="jacoco-aggregate" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-              <item name="page_object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumDockerIT">
+  <component name="RunManager" selected="JUnit.SeleniumLocalIT">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -672,8 +495,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SeleniumDockerIT" />
         <item itemvalue="JUnit.SeleniumLocalIT" />
+        <item itemvalue="JUnit.SeleniumDockerIT" />
         <item itemvalue="JUnit.QuizServiceTest" />
         <item itemvalue="JUnit.MatchStatsServiceTest" />
         <item itemvalue="JUnit.MatchStatsServiceTest.testDefaultStats" />
@@ -714,44 +537,49 @@
       <workItem from="1522163034215" duration="17240000" />
       <workItem from="1522254737970" duration="3482000" />
       <workItem from="1522335303765" duration="10748000" />
-      <workItem from="1522352521249" duration="1202000" />
+      <workItem from="1522352521249" duration="2809000" />
+      <workItem from="1522355914174" duration="1178000" />
+      <workItem from="1522770457572" duration="1988000" />
+      <workItem from="1522775372452" duration="1576000" />
+      <workItem from="1522793397140" duration="107000" />
+      <workItem from="1522793612012" duration="4080000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatchStatsServiceTest - 2018.03.29 at 20h 04m 39s.xml">
-      <configuration name="MatchStatsServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuizServiceTest - 2018.03.29 at 20h 05m 13s.xml">
-      <configuration name="QuizServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumLocalIT - 2018.03.29 at 20h 13m 54s.xml">
-      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumLocalIT - 2018.03.29 at 20h 19m 55s.xml">
-      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumLocalIT - 2018.03.29 at 20h 28m 40s.xml">
-      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumLocalIT - 2018.03.29 at 21h 21m 20s.xml">
-      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumLocalIT - 2018.03.29 at 21h 42m 45s.xml">
-      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumLocalIT - 2018.03.29 at 21h 43m 16s.xml">
-      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeleniumLocalIT - 2018.03.29 at 21h 46m 14s.xml">
       <configuration name="SeleniumLocalIT" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SeleniumDockerIT - 2018.03.29 at 21h 48m 10s.xml">
       <configuration name="SeleniumDockerIT" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SeleniumDockerIT - 2018.03.29 at 22h 29m 51s.xml">
+      <configuration name="SeleniumDockerIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumDockerIT - 2018.03.29 at 22h 43m 03s.xml">
+      <configuration name="SeleniumDockerIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumDockerIT - 2018.04.03 at 17h 48m 36s.xml">
+      <configuration name="SeleniumDockerIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumLocalIT - 2018.04.03 at 17h 51m 09s.xml">
+      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumLocalIT - 2018.04.03 at 19h 14m 28s.xml">
+      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumLocalIT - 2018.04.04 at 00h 11m 08s.xml">
+      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumLocalIT - 2018.04.04 at 00h 14m 55s.xml">
+      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumLocalIT - 2018.04.04 at 00h 15m 19s.xml">
+      <configuration name="SeleniumLocalIT" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180861000" />
+    <option name="totallyTimeSpent" value="191397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,8 +591,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="-8" width="1849" height="1089" extended-state="6" />
-    <editor active="true" />
+    <frame x="73" y="-5" width="1847" height="1085" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008366" side_tool="true" weight="0.32962137" />
@@ -778,7 +605,7 @@
       <window_info anchor="right" id="JSF" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5514874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.55122495" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32951945" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32951945" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -786,13 +613,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916342" weight="0.6726058" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916342" weight="0.6971047" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32951945" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.6982183" />
       <window_info id="Persistence" order="8" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25989962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27941996" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850778" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.329972" />
@@ -800,7 +628,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="13" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32951945" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -862,25 +689,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumTestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/page_object/MatchPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -982,13 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/ncorp/controller/SignUpController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -1056,13 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1185,10 +979,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java" />
     <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="741">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
         </state>
       </provider>
     </entry>
@@ -1208,27 +1010,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumLocalIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="519">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
             <element signature="e#1182#1183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/test/java/com/ncorp/selenium/SeleniumDockerIT.java">
+    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="969">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pom.xml">
+    <entry file="file://$PROJECT_DIR$/report/target/site/jacoco-aggregate/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/target/site/jacoco-aggregate/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="174" column="36" lean-forward="true" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
         </state>
       </provider>
     </entry>

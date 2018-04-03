@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.ncorp.selenium.SeleniumDockerIT
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 45.609 sec <<< FAILURE! - in com.ncorp.selenium.SeleniumDockerIT
-com.ncorp.selenium.SeleniumDockerIT  Time elapsed: 45.609 sec  <<< ERROR!
-org.testcontainers.containers.ContainerLaunchException: Container startup failed
-Caused by: org.rnorth.ducttape.RetryCountExceededException: Retry limit hit with exception
-Caused by: java.lang.NullPointerException: containerId was not specified
-
